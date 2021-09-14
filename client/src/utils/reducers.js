@@ -82,7 +82,7 @@ export const reducer = (state, action) => {
     cartOpen: !state.cartOpen
   };
 
-    // if it's none of these actions, do not update state at all and keep things the same!
+  
     default:
       return state;
   }
@@ -91,3 +91,4 @@ export const reducer = (state, action) => {
 export function useProductReducer(initialState) {
   return useReducer(reducer, initialState);
 }
+ export default reducer
