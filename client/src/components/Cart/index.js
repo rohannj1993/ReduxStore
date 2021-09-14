@@ -3,6 +3,7 @@ import CartItem from '../CartItem';
 import Auth from '../../utils/auth';
 import './style.css';
 
+
 const Cart = () => {
   return (
     <div className="cart">
