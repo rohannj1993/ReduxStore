@@ -8,6 +8,19 @@ Our challenge was to refactor the e-commerce website from the module project so 
 4. Apollo Server
 5. MongoDB
 
-## Installation-
 
-## Screenshots
+
+## Screenshots-
+![screenshot](client/src/assets/Screenshot217.png)
+![screenshot](client/src/assets/Screenshot218.png)
+![screenshot](client/src/assets/Screenshot219.png)
+![screenshot](client/src/assets/Screenshot220.png)
+
+## Deployed link-
+https://rohannj1993.github.io/ReduxStore/
+
+## My Repository-
+https://github.com/rohannj1993/ReduxStore
+
+## My Github profile-
+https://github.com/rohannj1993
