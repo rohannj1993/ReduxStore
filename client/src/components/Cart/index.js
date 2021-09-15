@@ -44,10 +44,10 @@ const Cart = () => {
       dispatch({ type: ADD_MULTIPLE_TO_CART, products: [...cart] });
     };
 
-    if (!state.cart.length) {
+    if (state?.cart.length) {
       getCart();
     }
-  }, [state.cart.length, dispatch]);
+  }, [state?.cart.length, dispatch]);
 
   function calculateTotal() {
     let sum = 0;
@@ -60,7 +60,7 @@ const Cart = () => {
   function toggleCart() {
     dispatch({ type: TOGGLE_CART });
   }
-  if (!state.cartOpen) {
+  if (state?.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
         <span
@@ -74,7 +74,7 @@ const Cart = () => {
     <div className="cart">
       <div className="close" onClick={toggleCart}>[close]</div>
       <h2>Shopping Cart</h2>
-      {state.cart.length ? (
+      {state?.cart.length ? (
         <div>
           {state.cart.map(item => (
             <CartItem key={item._id} item={item} />
